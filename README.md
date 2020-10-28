@@ -2,22 +2,22 @@
 
 ![Snapshot](Capture.png?raw=true "snapshot")
 
-A simulation of pile sand abelien fall by using Parallel Archi Programming (OpenMP, OpenCL).
+A simulation of pile abelian sandfall using Parallel Programming (OpenMP, OpenCL).
 
-Before looking at this github project, please have a look on the basic code did by our teachers on [easypap](https://gforgeron.gitlab.io/easypap/).
+Before looking at this github project, please take a look at the basic code made by our teachers on [easypap](https://gforgeron.gitlab.io/easypap/).
 
-You can also read the README.md that you'll find in the easypap-se folder, that has been made by our teachers. 
+You can also read the README.md that you'll find in the easypap-se folder, which was created by our teachers. 
 
 ## Our work
 
-As you can see on easypap, the sequential code is already done. Here, we had to do a parallel version by using OpenMP. 
+As you can see on easypap, the sequential code is already done. Here, we had to do a parallel version using OpenMP. 
 
-But first of all we've optimized the sequential code to win performance in sequential mode, that is the first very important step, and that has to be do.
+But first of all we've optimized the sequential code to gain performance in sequential mode, that is the very important first step, and it must to be done.
 
-The file that we modified is sable.c in kernel/c/sable.c. This is a lot of a OpenMP version (tiled, ...). We also have modified kernel/ocl/sable.cl to make GPU optimization with OpenCL. 
+The file we modified is sable.c in kernel/c/sable.c. Its is mainly an OpenMP version (tiled, ...). We have also modified kernel/ocl/sable.cl to make GPU optimization with OpenCL. 
 
 ## Our results
 
-You can find our report at the root of the github. It's in french but it shows the result we obtains by using different optimization. also its shows all the different ways we work on to optimize calculations. 
+You can find our report at the root of the github. It's in French but it shows the result we get using different optimizations. It also shows all the different ways we work on to optimize calculations. 
 
 
